@@ -88,9 +88,6 @@ async function main() {
   await run('pnpm', ['changelog']);
   await run('eslint', ['CHANGELOG.md', '--fix', '--no-ignore']);
 
-  // Sync templates
-  step('\nSync the templates...');
-  await run('pnpm', ['sync']);
   const { yes: changelogOk } = await prompts({
     type: 'confirm',
     name: 'yes',
@@ -103,7 +100,7 @@ async function main() {
 
   // Commit changes to the Git and create a tag.
   step('\nCommitting changes...');
-  await run('git', ['add', 'CHANGELOG.md', 'package.json', 'templates']);
+  await run('git', ['add', 'CHANGELOG.md', 'package.json']);
   await run('git', ['commit', '-m', `chore: release: v${targetVersion}`]);
   await run('git', ['tag', `v${targetVersion}`]);
 
