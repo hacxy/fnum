@@ -1,3 +1,9 @@
+## [0.0.3](https://github.com/hacxy/fnum/compare/v0.0.2...v0.0.3) (2025-03-13)
+
+### Features
+
+- calculate the proportion of TypeScript files ([e52ae27](https://github.com/hacxy/fnum/commit/e52ae273ebf65e3f5f6ad5c60ca614f87e9efa00))
+
 ## [0.0.2](https://github.com/hacxy/fnum/compare/v0.0.1...v0.0.2) (2025-03-13)
 
 ### Bug Fixes

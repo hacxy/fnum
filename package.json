@@ -1,7 +1,7 @@
 {
   "name": "fnum",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Count the number and proportion of file extensions",
   "author": {
     "name": "Hacxy",
