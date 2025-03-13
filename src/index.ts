@@ -15,7 +15,6 @@ export function bootstrap() {
   });
 
   const { dir, patternExts, ignoreExts } = args;
-  console.log(patternExts.split(','));
   const files = getTargetDirFiles({ dir, patternExts: patternExts?.split(','), ignoreExts: ignoreExts?.split(',') });
   console.log('count:', files.length);
 
