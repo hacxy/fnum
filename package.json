@@ -35,6 +35,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
+    "cac": "^6.7.14",
     "mri": "^1.2.0",
     "ora": "^8.1.1",
     "tinyglobby": "^0.2.12"
