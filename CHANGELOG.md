@@ -1,3 +1,9 @@
+## [0.0.2](https://github.com/hacxy/fnum/compare/v0.0.1...v0.0.2) (2025-03-13)
+
+### Bug Fixes
+
+- handle matching pattern path value error ([ecb0d5a](https://github.com/hacxy/fnum/commit/ecb0d5a9be98fc073e373ac3bb1e237e4d9330f9))
+
 ## 0.0.1 (2025-03-13)
 
 ### Features
